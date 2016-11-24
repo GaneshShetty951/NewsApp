@@ -58,7 +58,6 @@ public class InputActivity extends Activity implements DatePickerDialog.OnDateSe
         day   = c.get(Calendar.DAY_OF_MONTH);
 
         // Show current date
-
         date_view.setText(new StringBuilder()
                 // Month is 0 based, just add 1
                 .append(month + 1).append("-").append(day).append("-")
@@ -122,6 +121,7 @@ public class InputActivity extends Activity implements DatePickerDialog.OnDateSe
 
     private void createLanguageList() {
         Locale[] locale = Locale.getAvailableLocales();
+        languages=new ArrayList<String>();
         String lang;
         for( Locale loc : locale ){
             lang = loc.getDisplayLanguage();
