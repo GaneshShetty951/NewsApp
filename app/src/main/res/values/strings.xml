@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">NewsApp</string>
+    <string name="app_name">News Wrold</string>
     <string-array name="interest_array">
         <item>Politics</item>
         <item>Sports</item>
