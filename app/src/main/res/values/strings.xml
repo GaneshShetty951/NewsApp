@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string-array name="interest_array">
+        <item>Politics</item>
+        <item>Sports</item>
+        <item>Technology</item>
+        <item>Science</item>
+        <item>Defence</item>
+        <item>Agriculture</item>
+        <item>Arts and Culture</item>
+        <item>Education</item>
+        <item>Healthcare</item>
+        <item>Women Empowerment</item>
+        <item>Economy and Finance</item>
+        <item>Environment</item>
+        <item>Spirirtuality</item>
+        <item>Tourism</item>
+    </string-array>
+    <string name="title_activity_interest">InterestActivity</string>
+</resources>
